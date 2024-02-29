@@ -1,0 +1,77 @@
+.imageDiv{
+  height: 250px;
+  opacity: .1;
+}
+.text{
+  margin-right: 10px;
+                    opacity: 0.5;
+                    line-height: 24px;
+}
+.bold{
+  font-weight: 400;
+  opacity: 1;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.cardDiv{
+  position: relative;
+  height: 300px;
+  width: 350px;
+  box-shadow: 0 5px 20px #aaa;
+  cursor: pointer;
+}
+.cardDiv img{
+  height: 80%;
+  width: 100%;
+  margin-top: 20px;
+}
+.cardhead{
+  bottom: 0px;
+}
+.ribbon{
+  display: block;
+  height: 50px;
+  width: 320px;
+  background-color: #02c955;
+  border-radius: 25px;
+  border-bottom-right-radius: 0px;
+  position: absolute;
+  top: 30px;
+  left: 55px;
+}
+.ribbon h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.ribbon::before{
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  border-radius: 15px solid #02c955;
+  border-top: 15px solid rgba(0,0,0,0);
+  border-left: 15px solid rgba(0,0,0,0);
+  border-bottom: 15px solid rgba(0,0,0,0);
+}
+.ribbon::after{
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  border-right: 25px solid #00ad48;
+  border-top: 25px solid #00ad48;
+  border-left:25px solid rgba(0,0,0,0);
+  border-bottom:25px solid rgba(0,0,0,0);
+  transform: rotate(45deg);
+  border-radius: 25px;
+
+
+}

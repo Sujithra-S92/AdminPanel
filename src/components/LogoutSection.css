@@ -1,0 +1,21 @@
+.logout-div{
+  display: flex;
+  color: black;
+  position: absolute;
+  top: 4.5rem;
+  right: 1.5rem;
+  width: 120px;
+  margin: 0;
+  background-color: white;
+  border: 1px solid grey;
+}
+ul{
+  text-decoration: none;
+
+}
+ul li{
+ text-decoration: none;
+ list-style: none;
+cursor: pointer;
+padding:5px  10px;
+}

@@ -1,0 +1,9 @@
+.mainDiv{
+  background-color: rgb(12, 16, 27);
+  color: white;
+  
+}
+table tr td, table tr th{
+  background-color: rgb(12, 16, 27,0.3) !important;
+  color: white !important;
+}

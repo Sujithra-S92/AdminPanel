@@ -1,0 +1,83 @@
+.loginScreen{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("./src/assets/bg_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+.loginGradient{
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.4);
+  background-image: linear-gradient(to top, rgba(0,0,0,0.8)0, rgba(0,0,0,0)60%, rgba(0,0,0,0.8)100%,);
+
+}
+.loginButton{
+  top: 10px;
+  color: white;
+  position: fixed;
+  right: 20px;
+  /* background-color: orangered; */
+  padding: 5px 15px;
+  border: none;
+  border-radius: 15px;
+}
+.loginBody{
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  top: 30%;
+  width: 100%;
+  z-index: 1;
+  padding: 20px;
+  left: 0;
+  right: 0;
+}
+
+.loginBody> h1{
+  color: white;
+  margin-bottom: 20px;
+  font-size: 3.124rem;
+}
+.loginBody> h2{
+  color: white;
+  margin-bottom: 30px;
+ 
+}
+.loginBody> h3{
+  color: white;
+  margin-bottom: 20px;
+ 
+}
+.loginStarted{
+  padding:10px 15px;
+  background-color: rgba(10, 150, 71, 0.811);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.loginInput{
+  border: none;
+  padding:9px 10px;
+  width: 100%;
+  font-size: 15px;
+  
+  margin-bottom: 10px; 
+ 
+}
+.input{
+  border: none;
+  /* padding:9px 10px; */
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  margin-bottom: 10px; 
+  align-items: center;
+  justify-content: center;
+}
